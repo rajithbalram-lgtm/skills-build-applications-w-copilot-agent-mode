@@ -1,0 +1,135 @@
+
+.App {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0f7fa 0%, #f8bbd0 100%);
+  color: #22223b;
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  text-align: center;
+}
+
+
+.App-logo {
+  height: 60px;
+  width: auto;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+
+.App-header {
+  background: linear-gradient(90deg, #1abc9c 0%, #16a085 100%);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: #fff;
+}
+
+
+.App-link {
+  color: #1abc9c;
+  text-decoration: underline;
+  transition: color 0.2s;
+}
+
+.App-link:hover {
+  color: #e17055;
+}
+
+/* Navigation Bar */
+.navbar {
+  background: linear-gradient(90deg, #1abc9c 0%, #16a085 100%) !important;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+}
+.navbar-brand {
+  color: #fff !important;
+  font-size: 2rem;
+  display: flex;
+  align-items: center;
+}
+.navbar-nav .nav-link {
+  color: #f8f8f8 !important;
+  font-weight: 500;
+  margin-right: 10px;
+  transition: color 0.2s;
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link:hover {
+  color: #ffe082 !important;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+  color: #1abc9c;
+  font-weight: 700;
+}
+
+/* Buttons */
+button, .btn {
+  background: linear-gradient(90deg, #e17055 0%, #fbc531 100%);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5em 1.2em;
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(44, 62, 80, 0.08);
+  transition: background 0.2s, color 0.2s;
+}
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #fbc531 0%, #e17055 100%);
+  color: #fff;
+}
+
+/* Tables */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 8px rgba(44, 62, 80, 0.08);
+  margin-bottom: 2em;
+}
+th, td {
+  padding: 0.75em 1em;
+  border-bottom: 1px solid #e0e0e0;
+}
+th {
+  background: #1abc9c;
+  color: #fff;
+  font-weight: 700;
+}
+tr:nth-child(even) td {
+  background: #f8f8f8;
+}
+
+/* Card */
+.card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 16px rgba(44, 62, 80, 0.10);
+  border: none;
+}
+
+/* Favicon and logo tweaks */
+.octofit-logo {
+  height: 48px;
+  width: auto;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
